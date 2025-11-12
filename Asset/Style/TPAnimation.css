@@ -144,3 +144,94 @@ h2 {
     50% {background-color: rgb(180, 180, 180);}
     100% {background-color: white;}
 }
+
+#exercice4queue {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+#carre1 {
+    position: absolute;
+    top: 1160px;
+    left: 570px;
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    animation-name: carre1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+#carre2 {
+    position: absolute;
+    top: 1130px;
+    left: 570px;
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    animation-name: carre2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+#carre3 {
+    position: absolute;
+    top: 1100px;
+    left: 570px;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    animation-name: carre3;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+#carre4 {
+    position: absolute;
+    top: 1070px;
+    left: 570px;
+    width: 20px;
+    height: 20px;
+    background-color: yellow;
+    animation-name: carre4;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+#carre5 {
+    position: absolute;
+    top: 1040px;
+    left: 570px;
+    width: 20px;
+    height: 20px;
+    background-color: brown;
+    animation-name: carre5;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+#carre6 {
+    position: absolute;
+    top: 1010px;
+    left: 570px;
+    width: 20px;
+    height: 20px;
+    background-color: blueviolet;
+    animation-name: carre6;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes carre1 {
+    0% {top: 1160px; left: 570px; background-color: green; transform: rotate(3600deg)}
+    20% {top: 1160px; left: 120px; background-color: blue;}
+    50% {top: 1010px; left: 120px; background-color: red;}
+    70% {top: 1010px; left: 570px; background-color: yellow;}
+    100% {top: 1160px; left: 570px; background-color: green;}
+}
+
+@keyframes carre2 {
+    
+}
