@@ -82,3 +82,65 @@ h2 {
     justify-content: center;
     padding-top: 20px;
 }
+
+#loader1 {
+    position: absolute;
+    top: 780px;
+    left: 250px;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: black;
+    border: 2px black solid;
+    animation-name: Loader1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+#loader2 {
+    position: absolute;
+    top: 780px;
+    left: 330px;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: rgb(180, 180, 180);
+    border: 2px black solid;
+    animation-name: Loader2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+
+#loader3 {
+    position: absolute;
+    top: 780px;
+    left: 410px;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px black solid;
+    animation-name: Loader3;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+
+@keyframes Loader1 {
+    0% {background-color: black;}
+    50% {background-color: rgb(180, 180, 180);}
+    100% {background-color: white;}
+}
+
+@keyframes Loader2 {
+    0% {background-color: black;}
+    50% {background-color: rgb(180, 180, 180);}
+    100% {background-color: white;}
+}
+
+@keyframes Loader3 {
+    0% {background-color: black;}
+    50% {background-color: rgb(180, 180, 180);}
+    100% {background-color: white;}
+}
