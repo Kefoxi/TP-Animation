@@ -160,68 +160,73 @@ h2 {
     height: 20px;
     background-color: green;
     animation-name: carre1;
-    animation-duration: 10s;
+    animation-duration: 15s;
     animation-iteration-count: infinite;
 }
 
 #carre2 {
     position: absolute;
-    top: 1130px;
+    top: 1160px;
     left: 570px;
     width: 20px;
     height: 20px;
     background-color: blue;
     animation-name: carre2;
-    animation-duration: 10s;
+    animation-duration: 15s;
     animation-iteration-count: infinite;
+    animation-delay: 1.5s;
 }
 
 #carre3 {
     position: absolute;
-    top: 1100px;
+    top: 1160px;
     left: 570px;
     width: 20px;
     height: 20px;
     background-color: red;
     animation-name: carre3;
-    animation-duration: 10s;
+    animation-duration: 15s;
     animation-iteration-count: infinite;
+    animation-delay: 3s;
 }
 
 #carre4 {
     position: absolute;
-    top: 1070px;
+    top: 1160px;
     left: 570px;
     width: 20px;
     height: 20px;
     background-color: yellow;
     animation-name: carre4;
-    animation-duration: 10s;
+    animation-duration: 15s;
     animation-iteration-count: infinite;
+    animation-delay: 4.5s;
 }
 
 #carre5 {
     position: absolute;
-    top: 1040px;
+    top: 1160px;
     left: 570px;
     width: 20px;
     height: 20px;
     background-color: brown;
     animation-name: carre5;
-    animation-duration: 10s;
+    animation-duration: 15s;
     animation-iteration-count: infinite;
+    animation-delay: 6s;
 }
 
 #carre6 {
     position: absolute;
-    top: 1010px;
+    top: 1160px;
     left: 570px;
     width: 20px;
     height: 20px;
     background-color: blueviolet;
     animation-name: carre6;
-    animation-duration: 10s;
+    animation-duration: 15s;
     animation-iteration-count: infinite;
+    animation-delay: 7.5s;
 }
 
 @keyframes carre1 {
@@ -233,5 +238,41 @@ h2 {
 }
 
 @keyframes carre2 {
-    
+    0% {top: 1160px; left: 570px; background-color: blue; transform: rotate(3600deg);}
+    20% {top: 1160px; left: 120px; background-color: red;}
+    50% {top: 1010px; left: 120px; background-color: yellow;}
+    70% {top: 1010px; left: 570px; background-color: brown;}
+    100% {top: 1160px; left: 570px; background-color: blue;}
+}
+
+@keyframes carre3 {
+    0% {top: 1160px; left: 570px; background-color: red; transform: rotate(3600deg);}
+    20% {top: 1160px; left: 120px; background-color: yellow;}
+    50% {top: 1010px; left: 120px; background-color: brown;}
+    70% {top: 1010px; left: 570px; background-color: blueviolet;}
+    100% {top: 1160px; left: 570px; background-color: red;}
+}
+
+@keyframes carre4 {
+    0% {top: 1160px; left: 570px; background-color: yellow; transform: rotate(3600deg);}
+    20% {top: 1160px; left: 120px; background-color: brown;}
+    50% {top: 1010px; left: 120px; background-color: blueviolet;}
+    70% {top: 1010px; left: 570px; background-color: green;}
+    100% {top: 1160px; left: 570px; background-color: yellow;}
+}
+
+@keyframes carre5 {
+    0% {top: 1160px; left: 570px; background-color: brown; transform: rotate(3600deg);}
+    20% {top: 1160px; left: 120px; background-color: blueviolet;}
+    50% {top: 1010px; left: 120px; background-color: green;}
+    70% {top: 1010px; left: 570px; background-color: blue;}
+    100% {top: 1160px; left: 570px; background-color: brown;}
+}
+
+@keyframes carre6 {
+    0% {top: 1160px; left: 570px; background-color: blueviolet; transform: rotate(3600deg);}
+    20% {top: 1160px; left: 120px; background-color: green;}
+    50% {top: 1010px; left: 120px; background-color: blue;}
+    70% {top: 1010px; left: 570px; background-color: red;}
+    100% {top: 1160px; left: 570px; background-color: blueviolet;}
 }
