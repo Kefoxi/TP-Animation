@@ -276,3 +276,20 @@ h2 {
     70% {top: 1010px; left: 570px; background-color: red;}
     100% {top: 1160px; left: 570px; background-color: blueviolet;}
 }
+
+#exercice5 {
+    position: fixed;
+    top: 20px;
+    width: 40px;
+    height: 20px;
+    background-color: black;
+    border-radius: 10%;
+    z-index: 0;
+    transition: 5s;
+    color: white;
+    padding-left: 5px;
+}
+
+#exercice5:hover {
+    height: 400px;
+}
