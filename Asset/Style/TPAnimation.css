@@ -26,6 +26,7 @@ h2 {
     height: 75px;
     left: 320px;
     bottom: 350px;
+    top: 190px;
     background-color: yellow;
     animation-name: CarreQuiTourne;
     animation-duration: 15s;
@@ -53,6 +54,7 @@ h2 {
     width: 15px;
     height: 120px;
     border: 1px solid darkgreen ;
+    top: 457px;
 }
 
 #balle {
